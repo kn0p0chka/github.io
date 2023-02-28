@@ -1,0 +1,287 @@
+@media (max-width:1300px){
+    
+    .footer-forma{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        
+    }
+
+    .footer-input-email{
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    .gallery-specifics{
+        flex-wrap: wrap;
+
+    }
+}
+
+
+@media (max-width:1200px){
+    .ourWork-block{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .team-block{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 30px;
+    }
+
+    .clients-items{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 30px;
+    }
+
+    .navigation-contact{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+
+   .footer-container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 30px;
+   }
+
+
+
+   .header-container{
+    margin: 0 20px;
+   }
+
+   .header .container{
+    padding: 15px 0;
+   }
+
+   .portfolio-gallery-container{
+    justify-content: center;
+    
+   }
+}
+
+@media (max-width:1130px) {
+    .clients-items{
+        margin: 0 30px;
+    } 
+}
+
+@media (max-width:992px){
+    .footer-forma{
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .ourWork-block-item{
+        width: 100%;
+
+    }
+
+    .ourWork-block-item > img{
+        display: block;
+        max-width: 0 auto;
+    }
+
+    .hat{
+        padding: 100px 0;
+    }
+
+    .section-title{
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .ourWork{
+        padding: 30px 0;
+    }
+
+    .hat-title{
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .ourWork{
+        display: none;
+    }
+
+    .gallery-grey{
+        width: 100%;
+    }
+
+    .gallery-item{
+        width: 100%;
+    }
+
+    .hamburger{
+        display: block;
+        z-index: 101;
+    }
+
+    .navigation-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh ;
+    z-index: 100;
+    width: 100%;
+    background: #fff;
+    transform: translateX(-100%);
+    transition: var(--transition);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px;
+    overflow: auto;
+    }
+
+    .navigation-menu .navigation-menu-item{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+
+    .navigation .navigation-menu-item.social{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .navigation-menu .navigation-menu-item.social .navigation-menu-link{
+        font-size: 24px;
+        color: #757575;
+       
+    }
+
+    .navigation-menu .navigation-menu-item:last-child{
+        margin-bottom: 0;
+    }
+
+    .navigation .navigation-menu-item.mobile{
+        display: block;
+    }
+
+    .navigation-menu .navigation-menu-item.mobile .navigation-menu-link{
+        font-size: 34px;
+    }
+
+    .navigation-menu .navigation-menu-item.mobile{
+        margin-bottom: 0;
+    }
+
+    .navigation-menu .navigation-menu-item:last-child .navigation-menu-link{
+        font-size: 24px;
+        color: #757575;
+    }
+
+    .navigation-menu .navigation-menu-link.blue{
+        color: #2196f3;
+    }
+
+
+    .navigation-menu .navigation-menu-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    }
+
+    .gallery-specifics{
+        margin: 30px;
+    }
+
+    .team {
+        padding: 19px 0;
+    }
+
+    .team-title {
+        margin-bottom: 30px;
+    }
+
+    .team-name{
+        font-size: 18px;
+    }
+
+    .navigation-menu.open{
+        transform: translateX(0);
+    }
+
+    .navigation-contact{
+        display: none;
+    }
+
+    .team-item{
+        flex-basis: 344px;
+    }
+
+    .clients-block {
+        width: 200px;
+        height: 100px;
+    }
+
+    .switcher-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:480px) {
+    .modal-window{
+        width: 330px;
+        height: 540px;
+    }
+
+    .modal-close{
+        left: 330px;
+    }
+
+    .modal-title{
+    width: 310px;
+
+    }
+
+    .footer{
+        padding: 30px 0 30px;
+    }
+
+    .footer-mail{
+        margin-bottom: 5px;
+    }
+
+    .footer-container{
+        justify-content: flex-start;
+    }
+
+    .footer-join{
+        margin-right: 0;
+    }
+
+    .footer-address{
+        margin-right: 0;
+    }
+}
+
+@media(max-width:400px){
+    .portfolio-gallery-item{
+        width: 100%;
+        
+    }
+
+    .portfolio-gallery-title{
+        font-size: 15px;
+        max-width: 300px;
+        line-height: 20px;
+    }
+
+    .main{
+        padding: 15px ;
+    }
+}

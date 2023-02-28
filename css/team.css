@@ -1,0 +1,87 @@
+.team{
+    background-color:  #F5F4FA;
+    padding: 49px 0 ;
+}
+
+.team-link svg{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.team-info{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin: 30px 61px 16px 61px;
+}
+
+.team-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #212121;
+}
+
+.team-job{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
+.team-link svg path{
+    fill:#AFB1B8;
+    transition: var(--transition);
+}
+
+.team-block{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.team-item{
+    flex-basis: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+
+}
+
+.team-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px 30px 32px;
+}
+
+.team-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.team-title{
+margin-bottom: 50px;
+}
+
+.team-link:hover{
+    background-color: #2196F3;
+    
+}
+
+.team-link:hover svg path{
+fill: white;
+}

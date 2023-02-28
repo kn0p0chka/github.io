@@ -1,0 +1,16 @@
+.container{
+   max-width: var(--max-width);
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.section-title{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 42px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 0 auto;
+}
