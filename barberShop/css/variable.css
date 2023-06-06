@@ -1,0 +1,8 @@
+:root{
+    --max-width:1180px;
+    --transition:all 0.3s ease-in-out;
+    --white-color:#FFFFFF;
+    --orange-color: #FF6E40;
+    --brown-color: #3B322D;
+    --dark-brown-color:#251D1A;
+}

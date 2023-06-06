@@ -1,0 +1,108 @@
+.testimonials{
+    background-color: var(--brown-color);
+    padding-bottom: 154px;
+}
+
+.testimonials .container{
+    position: relative;
+}
+
+.testimonials .swiper-title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white-color);
+    margin-bottom: 24px;
+
+}
+
+.testimonials .swiper-button-next,.testimonials  .swiper-button-prev {
+    top: 46%;
+    width:34px;
+    height:34px;
+    color: var(--brown-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B7AAA2;
+    border-radius: 50%;
+}
+
+.testimonials .swiper-button-next{
+
+    right: -40px;
+}
+
+.testimonials  .swiper-button-prev{
+    left: -40px;
+}
+
+.testimonials .swiper-button-prev:after, .testimonials  .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+}
+
+.testimonials .swiper-button-next:after, .testimonials  .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 20px;
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+
+.testimonials .swiper-text{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white-color);
+    margin-bottom: 24px;
+}
+
+.testimonials .swiper-link{
+    font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+color: var(--orange-color);
+
+}
+
+.testimonials .swiper-img{
+    margin-bottom: 14px;
+}
+
+
+.testimonials-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonials-title{
+font-family: 'Fira Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 125%;
+color: var(--white-color);
+text-align: center;
+}
+
+.testimonials-info{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+
+    color: #EFE7E2;
+    max-width: 580px;
+    margin: 24px 0 40px 0;
+}

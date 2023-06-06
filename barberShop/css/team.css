@@ -1,0 +1,118 @@
+.team .container{
+    background: url("../img/team.png") no-repeat, linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%);;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 423px 63px 50px;
+
+}
+
+.body-mit{
+    background-color: var(--brown-color);
+}
+
+.team-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 110%;
+    color: #FFFFFF;
+    max-width: 707px;
+    margin-bottom: 32px;
+}
+
+.team-info{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #EFE7E2;
+    max-width: 228px;
+}
+
+/* section devon */
+
+.devon{
+    margin: 90px 0 20px;
+}
+
+.devon-block{
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-brown-color);
+    margin-bottom: 20px;
+}
+
+.devon-block-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-left-title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #EFE7E2;
+    max-width: 250px;
+    margin-left: 50px;
+}
+
+.devon-block-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.block-right-p{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7AAA2;
+    max-width: 280px;
+}
+
+
+.devon-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1180px;
+
+}
+
+.devon-gallery-image {
+    width: 280px;
+    height: 280px;
+    display: block;
+}
+
+.devon-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.devon-more-link{
+    width: 258px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 25px 51px;
+    background-color:var(--orange-color);
+    border: none;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: white;
+    text-decoration: none;
+    gap: 14px;
+    }

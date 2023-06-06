@@ -1,0 +1,135 @@
+.form{
+    background-color: #FF6E40;
+    padding: 70px 0 68px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    transform: translateY(100px);
+}
+
+.forma-title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 133%;
+    color: #000000;    
+}
+
+.forma-info{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #3B322D;
+    margin-bottom: 28px;
+}
+
+.forma-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.forma-number{
+    min-width: 194px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 51px;
+    background-color: #FF6E40;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.forma-email{
+    min-width: 194px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 51px;
+    background-color: #FF6E40;
+    border: 1px solid black;
+    color: white;
+}
+
+.forma-number[type="tel"]::placeholder{
+    color: rgba(255, 255, 255, 0.92);
+    font-style:'Barlow Semi Condensed', sans-serif;
+}
+
+.forma-email[type="email"]::placeholder{
+    color: rgba(255, 255, 255, 0.92);
+    font-style:'Barlow Semi Condensed', sans-serif;
+}
+
+
+.forma-submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 51px;
+    background-color: #000000;
+    border: 1px solid black;
+    color: white;
+
+}
+
+
+.form-page{
+    margin-top: 300px;
+    transform: translateY(350px);
+}
+
+/* 
+.checkbox{
+    position: relative;
+}
+
+.forma-checkbox{
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox-label{
+    padding-left:25px ;
+
+    font-size: 1rem;
+    color: white;
+}
+
+.checkbox-label::before{
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.checkbox-label::after{
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon.svg") no-repeat;
+    background-size: 16px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+} */

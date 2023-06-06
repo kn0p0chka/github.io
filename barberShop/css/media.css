@@ -1,0 +1,364 @@
+@media (max-width: 1200px) {
+  .form {
+    margin-top: 30px;
+  }
+
+  .hamburger{
+    display: inline-block;
+  }
+
+  .testimonials .swiper-button-next, .testimonials  .swiper-button-prev {
+    display: none;
+  }
+
+  .navigation.open {
+    transform: translateX(0);
+    -webkit-box-shadow: 14px 12px 34px -17px rgba(178, 183, 183, 1);
+    -moz-box-shadow: 14px 12px 34px -17px rgba(178, 183, 183, 1);
+    box-shadow: 14px 12px 34px -17px rgba(178, 183, 183, 1);  
+  }
+
+ 
+
+
+  .navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+    width: 80%;
+    background: var(--brown-color);
+    transform: translateX(-100%);
+    transition: var(--transition);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px;
+    overflow: auto;
+    max-width: 400px;
+    
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu-link{
+    font-size: 40px;
+  }
+
+  .header-lotacion{
+    display: none;
+
+  }
+
+  .header-tel{
+    display: none;
+
+  }
+
+  .header-container {
+    justify-content: space-between;
+}
+
+  .price {
+    padding: 118px 0 200px 0;
+  }
+  .map-block {
+    margin-left: 0;
+  }
+
+  .our-price {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+  }
+
+  .our-price-item {
+    width: 30%;
+  }
+
+  .barber-shop .container {
+    padding: 15px;
+  }
+
+  .barber-shop-btn {
+    padding: 15px 30px;
+    position: relative;
+    top: -15px;
+  }
+
+  .barber-shop-title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .about-gallery-item-6 {
+    top: -50px;
+  }
+
+  .our-price-item {
+    width: 40%;
+    
+}
+
+.team-title {
+  font-size: 50px;
+}
+
+.devon {
+margin: 20px 0 20px;
+}
+
+.devon-gallery {
+justify-content: center;
+align-items: center;
+}
+
+.devon-block-right {
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.map-block {
+  gap: 18px;
+
+}
+
+.team-title {
+  max-width: 100%;
+}
+.forma-block {
+  flex-wrap: wrap;
+}
+
+  .our-price {
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .map-block{
+    padding: 35px 18px 41px 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-gallery-item-6 {
+    top: -40px;
+  }
+
+  .team-title {
+    font-size: 30px;
+}
+}
+
+@media (max-width: 576px) {
+  .about-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .about-gallery-item-1,
+  .about-gallery-item-2,
+  .about-gallery-item-3,
+  .about-gallery-item-4,
+  .about-gallery-item-5,
+  .about-gallery-item-6 {
+    grid-column: 1/-1;
+    grid-row: unset;
+  }
+  .about-gallery-item-6 {
+    top: 0;
+  }
+
+  .devon-block {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .devon-block-right {
+    padding: 0 20px ;
+}
+
+.devon-gallery-image {
+  width: 100%;
+  height: 100%;
+
+}
+
+  .block-right-p {
+    max-width: 100%;
+}
+
+  .devon-block-left {
+    justify-content: space-between;
+  
+  }
+  
+  .team .container {
+    padding: 40px 250px 63px 50px;
+  }
+  
+  .team-info {
+    max-width: 100%;
+  }
+  
+
+  .barber-shop-title {
+    font-size: 40px;
+    max-width: 671px;
+  }
+
+  .barber-shop-top {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .barber-shop-block {
+    min-height: 800px;
+}
+
+
+
+  .bottom{
+    margin-top: 15px;
+  }
+  .briefly-block {
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .about-btn-orange {
+  margin-top: 15px;
+
+  }
+
+  .about-buttons {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+
+  .our-price {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .our-price-item {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .our-price-info {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+}
+
+
+.forma-title {
+  font-size: 26px;
+
+}
+
+.forma-info {
+  font-size: 18px;
+}
+
+.forma-number, .forma-email, .forma-submit{
+    width: 100%;
+}
+
+.forma-submit{
+  justify-content: center;
+  align-items: center;
+}
+
+.our-price-info-left {
+  text-align: left;
+}
+  .about {
+    padding: 60px 0;
+  }
+
+  .form {
+    padding: 70px 20px 68px 20px;
+}
+
+.map-title {
+  font-size: 28px;
+}
+.map-block {
+  max-width: 380px;
+  gap: 28px;
+}
+
+.map-contact-icon {
+  width: 44px;
+  height: 44px;
+  margin-right: 21px;
+}
+
+.map-contact-link {
+  font-size: 18px;
+}
+
+}
+
+@media (max-width: 480px) {
+  .team .container{
+    padding: 40px 123px 63px 50px;
+  }
+
+  .map-block{
+    display: none;
+  }
+}
+
+
+@media (max-width: 420px){
+  .testimonials .swiper-text{
+    max-width: 250px;
+  }
+
+  .form {
+
+    padding: 50px 20px 48px;
+}
+
+.map-block{
+  display: none;
+}
+
+.devon-block-left {
+  flex-wrap: wrap;
+}
+
+.devon-block-left img{
+  width: 100%;
+}
+
+.block-left-title {
+  max-width: 100%;
+}
+
+}
+
+@media (max-width: 320px){
+  .block-left-title {
+
+    font-size: 38px;
+  }
+
+  
+  .team .container {
+    padding: 40px 42px 63px 50px;
+}
+
+}

@@ -1,0 +1,72 @@
+.barber-shop{
+   background-color:#3B322D;
+
+}
+
+.barber-shop .container{
+    background: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url("../img/bg.jpg")  center/cover ;
+    background-repeat: no-repeat;
+    padding: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+.barber-shop-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1000px;
+}
+
+.barber-shop-title{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 110%;
+    max-width: 671px;
+    color: var(--white-color);
+}
+
+.barber-shop-top{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.barber-shop-sub-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--white-color);
+    border: 1px solid white;
+    display: inline-block;
+    padding: 9px 25px;
+    margin-bottom: 39px;
+}
+
+.barber-shop-text{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white-color);
+    max-width: 301px;
+}
+
+
+.barber-shop-btn{
+height: 68px;
+padding: 25px 51px;
+background-color: var(--orange-color);
+
+font-family: 'Playfair Display', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 152%;
+color: var(--white-color);
+}

@@ -1,0 +1,127 @@
+.header{
+    background-color: #3B322D;
+    padding: 38px 0;
+}
+
+.logo svg{
+    fill:#FF6E40;
+    height: 45px;
+    width: 43px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--white-color);
+    gap: 18px;
+    margin-right: 70px;
+}
+
+.header-location-icon svg{
+    height: 18px;
+    width: 14px;
+
+}
+
+.header-tel-icon svg{
+    height: 18px;
+    width: 18px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 135%;
+    color: var(--white-color);
+    margin-right: 40px;
+}
+
+.menu .menu-item:last-child{
+    margin-right: 0;
+}
+
+.header-lotacion{
+    display: flex;
+    align-items: center;
+
+}
+
+.header-location-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+    color: var(--white-color);
+    display: block;
+    max-width: 105px;
+    display: flex;
+align-items: center;
+text-align: right;
+}
+
+.header-location-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: #FF6E40;
+    border-radius: 30px;
+    fill: #3B322D;
+    margin-left: 15px;
+}
+
+
+.header-tel-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 152%;
+    color: var(--white-color);
+
+}
+
+.header-tel-text{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+align-items: center;
+text-align: right;
+color: #EFE7E2;
+}
+
+.header-tel{
+    display: flex;
+    align-items: center;
+    margin-left: 42px;
+}
+
+.header-tel-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: #FF6E40;
+    border-radius: 30px;
+    fill: #3B322D;
+    margin-left: 15px;
+}
+

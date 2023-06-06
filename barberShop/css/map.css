@@ -1,0 +1,62 @@
+.map{
+    background-image: url("../img/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.map-block{
+    max-width: 480px;
+    background-color: var(--dark-brown-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 65px 38px 91px 57px;
+    background: linear-gradient(0deg, #251D1A, #251D1A),;
+    border-radius: 5px;
+    gap: 48px;
+    margin-left: 70px;
+}
+
+.map-title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    color: #FFFFFF;
+
+}
+
+
+
+.map-contact-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.map-contact-icon{
+    width: 54px;
+    height: 54px;
+    background: var(--orange-color);
+    border-radius: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.map-contact-icon svg{
+    fill: var(--dark-brown-color);
+    height: 22px;
+    width: 22px;
+}

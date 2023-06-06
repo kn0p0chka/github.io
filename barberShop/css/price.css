@@ -1,0 +1,89 @@
+.price{
+    background-color: #251D1A;
+    padding: 118px 0 282px 0;
+
+}
+
+.our-price{
+    display: flex;
+    gap: 0px;
+    
+}
+
+.our-price-item{
+    width: 280px;
+}
+
+
+.price-title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.price-info{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-align: center;
+    color: #EFE7E2;  
+    margin-bottom: 62px;  
+}
+
+.our-price-title{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #EFE7E2;
+}
+
+.our-price-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-price-info-left p{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 173%;
+    color: #EFE7E2;
+
+}
+
+.our-price-info{
+    width: 280px;
+    align-items: flex-start;
+    border-right: 1px solid white;
+    padding-right: 14px;
+
+}
+
+
+
+.our-price-info-right p{
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    text-align: right;
+    color: #B7AAA2;
+
+}
+
+
+.our-price-info-right strong{
+    font-weight: 700;
+    color: #FFFFFF;
+}

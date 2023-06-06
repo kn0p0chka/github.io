@@ -1,0 +1,113 @@
+.about {
+  background-color: #3b322d;
+  padding: 120px 0;
+}
+
+.about-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-title {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.about-info {
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  text-align: center;
+  color: #efe7e2;
+  max-width: 580px;
+  margin: 12px 0 40px 0;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-btn-orange {
+  background: #ff6e40;
+  padding: 22px 51px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 152%;
+
+  color: var(--white-color);
+}
+
+.about-btn-inst {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 25px 51px;
+  border: 1px solid var(--white-color);
+  margin-left: 20px;
+}
+
+.figure-gallery-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.about-gallery-item-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.about-gallery-item-2 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.about-gallery-item-3 {
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.about-gallery-item-4 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.about-gallery-item-5 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.about-gallery-item-6 {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+
+  position: relative;
+  top: -57px;
+}
